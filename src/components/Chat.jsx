@@ -55,7 +55,6 @@ export default function Chat({room}) {
         </div>
         <form onSubmit={handleSubmit}>
             <input type="text" placeholder="Type a message" value = {msg} onChange={(e) => setMsg(e.target.value)}/>
-            <button type="submit"><img src="./send.svg" className='send'/></button>
         </form>
     </div>
     
